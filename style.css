@@ -1,0 +1,130 @@
+*
+{
+    padding:0;
+    margin:0;
+    font-family: cursive;
+}
+ul
+{
+    display:flex;
+    float:right;
+    align-content:center;
+}
+ul li
+{
+    list-style:none;
+}
+ul li a
+{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+    font-size: 15px;
+    text-decoration:none;
+    padding: 13px;
+    white-space: nowrap;
+    letter-spacing:1px;
+    transition:1s ease;
+}
+ul li a:hover
+{
+    background-color:#EC3E0F;
+}
+ul li.active a
+{
+    background-color:#EC3E0F;
+}
+header
+{
+    padding:20px;
+    height:100vh;
+    background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("header-background.jpg") no-repeat center;
+    background-size:cover;
+    background-position:relative;
+}
+.header-text
+{
+   margin-top:100px;
+   margin-left:1000px;
+   color:#EC3E0F;
+}
+.heading
+{
+    font-size:250%;
+}
+.subtext
+{
+    margin-left:90px;
+    font-size:160%;
+}
+.header-text:hover
+{
+    color:#fff;
+}
+.biography
+{
+    background-color:darkgoldenrod;
+    text-align:center;
+    color:darkblue;
+    padding:15px;
+    font-family:calibri;
+}
+.biography:hover
+{
+    background-color:darkblue;
+    color:darkgoldenrod;
+}
+.bio-head
+{
+    font-size:150%;
+}
+.bio-para
+{
+    font-size:150%;
+    text-align:left;
+}
+.acheivements
+{
+    padding:20px;
+    height:100vh;
+    background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url("acheivements_background.jpg") no-repeat center;
+    background-size:cover;
+    background-position:relative;
+}
+.acheivements
+{
+    text-align:center;
+    color:deepskyblue;
+    padding:15px;
+    font-weight:bold;
+}
+.ac-head
+{
+    font-size:150%;
+}
+.ac-para
+{
+    font-size:150%;
+    text-align:left;
+}
+footer
+{
+    background:linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9));
+}
+.social
+{
+    display:flex;
+    justify-content:center;
+}
+.instagram
+{
+    padding:20px;
+}
+.twitter
+{
+    padding:20px;
+}
+.facebook
+{
+    padding:20px;
+}
